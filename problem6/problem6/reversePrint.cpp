@@ -6,12 +6,12 @@ using namespace std;
 void reversePrintStack(ListNode* root)
 {
 	stack<int> stk;
-	//压栈
+	//鍘嬫爤
 	while (root) {
 		stk.push(root->value);
 		root = root->next;
 	}
-	//出栈打印
+	//鍑烘爤
 	while (!stk.empty())
 	{
 		cout << stk.top() << ' ';
@@ -29,7 +29,7 @@ void reversePrintRecursive(ListNode* root)
 	cout << root->value << ' ';
 }
 
-//正向打印
+//姝ｅ父鎵撳嵃
 void print(ListNode* root)
 {
 	while (root)
