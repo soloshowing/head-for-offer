@@ -23,7 +23,6 @@ void replace_blank(char* s) {
 	}
 }
 
-
 int main()
 {
 	char str[100] = "are you okay? hello thank you, thank you very much";
