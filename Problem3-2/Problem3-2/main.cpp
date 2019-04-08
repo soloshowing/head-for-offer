@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 
+
 int find_dup(const std::vector<int>& v, int left, int right)
 {
 	if (left == right)

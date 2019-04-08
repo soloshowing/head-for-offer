@@ -1,5 +1,6 @@
 #include <iostream>
 
+
 bool find(int arr[][4], int rows, int cols, int key)
 {
 	int row = 0, col = cols-1;
