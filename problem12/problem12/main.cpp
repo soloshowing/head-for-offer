@@ -44,7 +44,7 @@ public:
 				|| doHasPath(matrix, row, rows, col - 1, cols, str, pathLen, visited)
 				|| doHasPath(matrix, row, rows, col + 1, cols, str, pathLen, visited);
 
-			//»ØËÝ
+			//å›žæº¯
 			if (!hasPath)
 			{
 				--pathLen;
